@@ -16,8 +16,7 @@ Since I'm not an expert to analyse this kind of problems I have done only some b
 
 ## The model
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
+> **Note:** Not available now
 
 ## Perfomances
 
