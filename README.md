@@ -24,9 +24,9 @@ Since I'm not an expert to analyse this kind of problems I have done only some b
 
 |                |Best Loss|Best accuracy score|
 |----------------|-------------------------------|-----------------------------|
-|Time|`1.40`            |`97.25`           |
-|Fourier|`1.35`            |`97.46`             |
-|Time + Fourier         |`1.20`|`97.59` |
+|Time|`1.40`            |`97.25%`           |
+|Fourier|`1.35`            |`97.46%`             |
+|Time + Fourier         |`1.20`|`97.59%` |
 
 > **Note:** All the results are approximated.
 
