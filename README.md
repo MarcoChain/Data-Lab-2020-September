@@ -32,5 +32,5 @@ The final idea was to implement a multi-input CNN to learn features in both doma
 |Time + Fourier         |`1.20`|`97.59%` |
 
 > **Note:** All the results are approximated.
-
+ Written by [MarcoChain](https://www.linkedin.com/in/marcogullotto/).
 
