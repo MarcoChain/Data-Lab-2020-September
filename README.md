@@ -16,7 +16,10 @@ Since I'm not an expert to analyse this kind of problems I have done only some b
 
 ## The model
 
-> **Note:** Not available now
+As already said, I am not a master for this kind of problem, so my idea to solve this problem is to develop a Cnn. Why a Cnn? Cnns are often suggested when the knowledge of the problem is not so in-depth because they can learn on their own personalized filters for that kind of task. Only a good design and a clever hyper-parameters tuning approach are required. Moreover, Cnns as Rnns are particularly powerful to analyze time series, so this approach looks immediately the right to face this problem. To implement all the algorithms I have used mainly Keras, Numpy and Scipy.
+At first, I use a sequential model and I start to stack Convolutional layers with ReLU activation function and batch normalization layers followed by MaxPooling layers. Finally, I add two fully connected layers with ReLU and softmax activation function. I have also used some regularization techniques, to try to reduce overfitting, such as (spatial/gaussian) drop out, normalization, and activity regularizer.
+The input of this model was the audio in the time domain before and the Fourier domain later. Using SGD with momentum as the optimizer and categorical cross-entropy as loss the result overcomes 97% in both cases.
+The final idea was to implement a multi-input CNN to learn features in both domains. The structure of the network was the same as before but with two branches instead of one. The result improves but not as much as expected.
 
 ## Perfomances
 
