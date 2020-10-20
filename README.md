@@ -25,7 +25,7 @@ The final idea was to implement a multi-input CNN to learn features in both doma
 
 
 
-|                |Best Loss|Best accuracy score|
+|Domain               |Best Loss|Best accuracy score|
 |----------------|-------------------------------|-----------------------------|
 |Time|`1.40`            |`97.25%`           |
 |Fourier|`1.35`            |`97.46%`             |
